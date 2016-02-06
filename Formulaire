@@ -1,0 +1,62 @@
+<!-- Formulaire sans CSS -->
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href=".css" type="text/css">
+    <meta charset="utf-8">
+    <title>Davidu93</title>
+  </head>
+  
+  <body>
+    <fieldset>
+      <legend>Formulaire</legend>
+      <form>
+        Nom <input type="text" name="nom" value="Boulin"/></br>
+        Prenom <input type="text" name="prenom" value="Jean"/></br>
+		Sexe <input type="radio" name="genre"/>Homme<input type="radio" name="genre"/>Femme</br>
+        Pseudonyme <input type="text" name="nom" value="Jean_Boulin"/></br>
+        Mots de passe <input type="password" name="mdp"/></br>
+        Adresse mail <input type="email" name="mail"/></br>
+		
+        Date de naissance (jj/mm/aaaa)
+        <select> <!-- Jours -->
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+		  <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+		  <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+		  <option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+		  <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+		  <option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+        </select>
+		<select> <!-- Mois -->
+          <option>Janvier</option>
+          <option>Février</option>
+          <option>Mars</option>
+		  <option>Avril</option>
+		  <option>Mai</option>
+		  <option>Juin</option>
+		  <option>Juillet</option>
+		  <option>Aôut</option>
+		  <option>Septembre</option>
+		  <option>Octobre</option>
+		  <option>Novembre</option>
+		  <option>Décembre</option>
+        </select>
+		<select> <!-- Années -->
+          <option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option>
+		  <option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option>
+        </select></br>
+		Lieu de naissance <input type="text" value="Paris" name="lieu_naissance"/></br>
+		Situation <input type="radio" name="situation"/>Célibataire
+		<input type="radio" name="situation"/>Pacsé
+		<input type="radio" name="situation"/>En couple
+		<input type="radio" name="situation"/>Marié</br>
+		Numero de téléphone <input type="text" name="num_tel"/></br>
+		Site <input type="site" name="site"></br>
+        <textarea rows="10" cols="30">Écrivez un commentaire</textarea></br>
+        <input type="submit" value="Envoyer">
+      </form>
+    </fieldset>
+  
+  </body>
+  
+</html>
